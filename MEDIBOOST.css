@@ -23,11 +23,12 @@
 
 /* Button styles */
 .dropdown-btn {
-    background-color: #4caf50;
+    background-color: #04b12d;
     color: white;
     padding: 12px;
     font-size: 16px;
     border: none;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -318,7 +319,10 @@ footer {
     }
 }
 @media screen and (max-width:415px){
-
+    .home{
+        height: 480px;
+        padding: 14px 8px;
+    }
     
 }
 
